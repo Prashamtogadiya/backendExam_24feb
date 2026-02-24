@@ -77,5 +77,3 @@ Notes:
 
 - If RBAC appears to allow unauthorized actions, verify that you are using a fresh token and that the user role in the database is correct. The app reads the authoritative `role` from the database for sensitive checks.
 - If the app can't connect to the DB, confirm `.env` settings and that MySQL is reachable from this machine.
-
-If you want, I can add a small script that accepts CLI args for the create-user script (so you can run `node services/createUser.js --email bob@x --password Pass1 --role MANAGER`) — tell me if you'd like that. 
